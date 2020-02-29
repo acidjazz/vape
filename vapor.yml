@@ -4,6 +4,7 @@ environments:
     production:
         memory: 1024
         cli-memory: 512
+        database: trendjet
         runtime: php-7.4
         build:
             - 'composer install --no-dev'
